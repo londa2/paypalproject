@@ -1,0 +1,241 @@
+        /* Estilos CSS para el carrusel y la barra de navegación */
+        /* Estilos CSS para el carrusel*/
+        body {
+            font-family: 'Nombre de la Fuente', sans-serif;
+            margin: 0;
+            height: 90vh;
+            background-image: url("../../imagen/inicio.jpg");
+            background-size: cover;
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: auto;
+            background: #6A6F4C;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 90;
+        }
+
+       /*logo*/
+       .logo {
+        cursor: pointer;
+        padding: 20px;
+    }
+
+    .logo img {
+        height: 60px;
+        width: auto;
+        transition: all 0.3s;
+    }
+
+    .logo img:hover {
+        transform: scale(1.2);
+    }
+
+        .oa{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*el navegador y botón*/
+        .header .nav-links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header .nav-links li {
+            list-style: none;
+            padding: 0 10px;
+            /* Ajusta este valor según tu preferencia */
+        }
+
+        .header .nav-links li:hover {
+            transform: scale(1.1);
+        }
+
+        .header .nav-links a {
+            font-size: 700;
+            color: #fff;
+            text-decoration: none;
+
+        }
+
+        .header .nav-links li a:hover {
+            color: #ffffff;
+        }
+
+        .header .btn button {
+            margin-left: 20px;
+            font-weight: 700;
+            color: #6A6F4C;
+            padding: 9px 25px;
+            background: #fff;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+
+        .header .btn button:hover {
+            background-color: #fff;
+            color: #6A6F4C;
+            transform: scale(1.1);
+        }
+
+        .header .search-bar {
+            display: flex;
+            align-items: center;
+            background: transparent;
+            border-radius: 50px;
+        }
+
+        .header .search-bar input[type="text"] {
+            border: none;
+            outline: none;
+            padding: 5px;
+            background: #fff;
+            border-radius: 50px;
+            color: #030303;
+            margin-right: 5px;
+        }
+
+        .header .search-bar button {
+            background: #6A6F4C;
+            border: none;
+            cursor: pointer;
+            border-radius: 50px;
+        }
+
+        .header .search-bar button i {
+            color: #fff;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar button{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        #search-input {
+            border: none;
+            border-radius: 20px;
+            padding: 8px 12px;
+            margin-right: 10px;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ini {
+            background-color: #6A6F4C;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        /* Estilos para los textos */
+        h1 {
+            color: #806044;
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            font-size: 46px;
+        }
+
+        .container {
+            width: 380px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #6A6F4C
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #6A6F4C;
+            color: #eef3f2;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6A6F4C;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 80px;
+            margin-bottom: 20px;
+        }
+
+        .forgot-link {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .centra_conchatumadre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*links sin azul*/
+        a {
+            color:#6A6F4C; 
+            text-decoration: none; 
+        }
+        
+        a:hover {
+            color:#6A6F4C ;
+            text-decoration: underline; 
+        }

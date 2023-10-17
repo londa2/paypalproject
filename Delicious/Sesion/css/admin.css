@@ -1,0 +1,59 @@
+
+
+body {
+    font-family: 'Nombre de la Fuente', sans-serif;
+    background-color: #6A6F4C;
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #6A6F4C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+/* Estilos para el botón de búsqueda */
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    border: none;
+    border-radius: 20px; 
+    padding: 8px 12px;
+    margin-right: 10px;
+    
+}
+
+button {
+    background-color: #6A6F4C;
+    color: #fff;
+    border: none;
+    border-radius: 20px; 
+    padding: 8px 12px;
+    cursor: pointer;
+    
+}
+
